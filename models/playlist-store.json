@@ -1,0 +1,27 @@
+{
+  "playlistCollection": [
+    {
+      "id": "afd70b65-32cf-4e29-a814-191700ab76d3",
+      "title": "My New Playlist",
+      "rating": 4,
+      "songs": [],
+      "date": "2026-04-10T14:30:34.112Z"
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "e93f4b34-140a-4a25-b8ae-36e2ff24aff5",
+      "title": "Homer's Playlist",
+      "rating": 4,
+      "songs": [],
+      "date": "2026-04-10T14:39:25.112Z"
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "f9de08c1-5567-4ad7-a685-fbce474fa9d4",
+      "title": "Marge's Playlist",
+      "rating": 3,
+      "songs": [],
+      "date": "2026-04-10T14:40:09.467Z"
+    }
+  ]
+}

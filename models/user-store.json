@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "Orestas",
+      "lastName": "Dunauskas",
+      "email": "dunauskasorestas@gmail.com",
+      "password": "1234",
+      "id": "840e558c-54d2-4a0a-bea6-195daa91ab4a"
+    },
+    {
+      "firstName": "Orestas",
+      "lastName": "Dunauskas",
+      "email": "dunauskasorestas@gmail.com",
+      "password": "1234",
+      "id": "935211b6-4e9e-4edb-9a52-562135e1397c"
+    }
+  ]
+}

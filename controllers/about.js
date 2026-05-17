@@ -1,9 +1,24 @@
 'use strict';
+import logger from "../utils/logger.js";
+import employeeStore from "../models/employee-store.js";
+import accounts from './accounts.js';
 
-const createView = (request, response) => {
-  response.send('This is the About page.');
+const about = {
+  createView(request, response) {
+    const loggedInUser = accounts.getCurrentUser(request);
+    logger.info("About page loading!");
+    
+    if (loggedInUser) {
+      const viewData = {
+        title: 'About the Playlist App',
+        fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+        employees: employeeStore.getEmpInfo(),
+      };
+      response.render('about', viewData);
+    }
+    else response.redirect('/');    
+},
 };
 
-export default {
-  createView
-};
+export default about;
+
